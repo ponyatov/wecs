@@ -1,0 +1,11 @@
+[package]
+name        =  "wecs"
+version     =  "0.0.1"
+description =  "Entity-Component-System for Web"
+authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+license     =  "MIT"
+repository  =  "https://github.com/ponyatov/wecs"
+edition     =  "2024"
+
+[dependencies]
+const_format = "0.2"

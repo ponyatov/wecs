@@ -1,10 +1,14 @@
 {
     "compilerOptions": {
-        "target": "ES6",         // JavaScript version to compile to
-        "module": "commonjs",    // Module system
-        "outDir": "./static",    // Output directory
+        "target": "es5",         // JavaScript version to compile to
+        "module": "none",        // Module system
+        "lib": ["es5"],
         "strict": true,          // Enable strict type checking
-        "esModuleInterop": true
+        "esModuleInterop": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": ["espruino"],
+        "outDir": "./static",    // Output directory
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules"]

@@ -1,10 +1,10 @@
 //! ECS in TypeScript
 
-restart();
+/// <reference types="espruino" />
 
 console.log('Hello');
 
-import assert from 'node:assert';
-import espruino from 'node:espruino';
+// import assert from 'node:assert';
+// // import espruino from 'node:espruino';
 
-assert.equal(1, 2);
+// assert.equal(1, 2);

@@ -392,6 +392,10 @@ let package:unit = //
     \"license\": \"{LICENSE}\"
 }}
 ")
-    // npm -g deno
+
+let ts:unit = //
+    touch "tsconfig.json"
+// npm -g deno
+// npm -g typescript
 
 COMMIT

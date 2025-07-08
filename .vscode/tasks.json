@@ -39,9 +39,9 @@
             "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
         },
         {
-            "label"          : "ts: build",
+            "label"          : "ts: watch",
             "type"           : "shell",
-            "command"        : "tsc src/${workspaceFolderBasename}.ts",
+            "command"        : "tsc --watch",
             "problemMatcher" : [],
             "group"          : {"kind": "build", "isDefault": true },
             "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}

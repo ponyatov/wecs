@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6",         // JavaScript version to compile to
+        "module": "commonjs",    // Module system
+        "outDir": "./static",    // Output directory
+        "strict": true,          // Enable strict type checking
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}

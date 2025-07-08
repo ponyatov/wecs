@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",         // JavaScript version to compile to
         "module": "none",        // Module system
+        "target": "es5",         // JavaScript version to compile to
         "lib": ["es5"],
+        "types": ["espruino"],
         "strict": true,          // Enable strict type checking
         "esModuleInterop": false,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "types": ["espruino"],
         "outDir": "./static",    // Output directory
     },
     "include": ["src/**/*.ts"],

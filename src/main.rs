@@ -1,1 +1,6 @@
-fn main() { println!("Hello, world!"); }
+mod config;
+mod server;
+
+fn main() {
+    server::run();
+}

@@ -1,0 +1,2 @@
+# [[ecs/component|component]] query
+

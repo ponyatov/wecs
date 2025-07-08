@@ -1,12 +1,19 @@
 {
-    "name"        : "wecs",
-    "version"     : "0.0.1",
-    "description" : "Entity-Component-System for Web",
-    "main"        : "src/wecs.js",
-    "directories" : { "doc": "doc", "src": "src" },
+    "name": "wecs",
+    "version": "0.0.1",
+    "description": "Entity-Component-System for Web",
+    "main": "src/wecs.js",
+    "directories": {
+        "doc": "doc",
+        "src": "src"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Dmitry Ponyatov <dponyatov@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "@types/espruino": "^1.94.10",
+        "@types/node": "^24.0.10"
+    }
 }

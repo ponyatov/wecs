@@ -1,0 +1,33 @@
+{
+    "recommendations": [
+        "stkb.rewrap",
+        "ms-vscode.makefile-tools",
+        "IBM.output-colorizer",
+        // formatters
+        "xaver.clang-format",
+        "foxundermoon.shell-format",
+        "esbenp.prettier-vscode",
+        // Linux
+        "ms-vscode-remote.remote-ssh",
+        "coolbear.systemd-unit-file",
+        // misc
+        "usernamehw.errorlens",
+        "hbenl.vscode-test-explorer",
+        // Web
+        "mechatroner.rainbow-csv",
+        "jock.svg",
+        // JS
+        "esbenp.prettier-vscode",
+        "denoland.vscode-deno",
+        // Python
+        "ms-python.python",
+        "ms-python.autopep8",
+        // Rust
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "swellaby.vscode-rust-test-adapter",
+        "vadimcn.vscode-lldb",
+        // F#
+        "ionide.ionide-fsharp",
+        "redhat.vscode-xml",
+}

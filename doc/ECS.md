@@ -22,6 +22,10 @@
 
 [[Compose Dungeon Denizens]]
 
+## [[TypeScript]]
+
+- [[ecs/wecs]]
+
 ## Rust
 - [[bevy]]
 - https://github.com/amethyst/specs

@@ -7,4 +7,5 @@ PIP    = pip3
 RUSTUP = $(CAR)/bin/rustup
 CARGO  = $(CAR)/bin/cargo
 NPM    = /usr/bin/npm
+TSC    = $(HOME)/.npm/bin/tsc
 DENO   = $(HOME)/.npm/bin/deno

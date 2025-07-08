@@ -1,7 +1,7 @@
 .PHONY : install update ref gz
-install: $(WS)_install $(RUSTUP) $(DENO) doc ref gz
+install: $(WS)_install $(RUSTUP) $(TSC) doc ref gz
 	$(MAKE) update
-update : $(WS)_update $(RUSTUP) $(DENO)
+update : $(WS)_update $(RUSTUP) $(TSC)
 	$(RUSTUP) self update && $(RUSTUP) update
 	$(NPM) update
 ref    : $(RF)

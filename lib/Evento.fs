@@ -146,7 +146,8 @@ let html:unit = //
     File.WriteAllText ("static/cdn/.gitignore","*\n!.gitignore\n")
     touch "static/index.html"
     touch "static/css.css"
-    touch "static/js.js"
+    touch $"static/{app}.js"
+    touch $"src/{app}.ts"
 
 let src:unit = //
     cpp
@@ -248,7 +249,7 @@ let dirs:unit = //
 
 let mk: unit = //
     mkdir "mk"
-    let makes = ["var";"version";"dir";"tool";"src";"all";"format";"rule";"doc";"rust";"python";"gz";"install";"ai"]
+    let makes = ["var";"version";"dir";"tool";"src";"all";"format";"rule";"doc";"rust";"python";"ts";"gz";"install";"ai"]
     for m in makes do
         touch $"mk/{m}.mk"
     File.WriteAllText("Makefile",
@@ -382,7 +383,7 @@ let package:unit = //
     \"name\"        : \"{app}\",
     \"version\"     : \"{VERSION}\",
     \"description\" : \"{TITLE}\",
-    \"main\"        : \"src/{APP}.js\",
+    \"main\"        : \"src/{app}.js\",
     \"directories\" : {{ \"doc\": \"doc\", \"src\": \"src\" }},
     \"scripts\": {{
         \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"

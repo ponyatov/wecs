@@ -16,5 +16,9 @@
         "@types/espruino": "^1.94.10",
         "@types/node": "^24.0.10",
         "uglify-js": "^3.19.3"
+    },
+    "dependencies": {
+        "deno": "^2.4.1",
+        "typescript": "^5.8.3"
     }
 }

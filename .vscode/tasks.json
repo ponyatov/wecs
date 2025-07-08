@@ -46,4 +46,13 @@
             "group"          : {"kind": "build", "isDefault": true },
             "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
         },
+        {
+            "label"          : "minify: uglifyjs",
+            "type"           : "shell",
+            "command"        : "uglifyjs static/${workspaceFolderBasename}.js -o static/${workspaceFolderBasename}.min.js",
+            "problemMatcher" : [],
+            "group"          : {"kind": "build", "isDefault": true },
+            "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
+        },
+    ]
 }
